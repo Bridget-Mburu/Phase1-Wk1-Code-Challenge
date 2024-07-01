@@ -1,7 +1,21 @@
 # Phase1-Wk1-Code-Challenge
 
- ## Introduction
- In this document I used javascript to write down solutions of some challenges given. First I creadted a repository in Git Hub with 4 folders which contains the different solutions.
+ ## Description
+ In this document javascript is used to write down solutions of the challenges given. 
+
+## Installation 
+To set up the programs to run, step by step follow the steps below;
+
+ ## Prerequisites
+ - JavaScript node
+ - Git(for cloning the repository)
+ 
+ ## Steps 
+ First clone the repository
+  
+  git clone //git@github.com:Bridget-Mburu/Phase1-Wk1-Code-Challenge.git
+  cd Phase1-Wk1-Code-Challenge
+
 
 ## Instructions
 *Code Challenge 1 - Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade.
@@ -11,18 +25,54 @@
 *Code Challenge 3 - Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the PAYE, NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
 ## Challenge 1 : Grade Student Generator
-The first challenge which is to create a Grade Generator from a range of 0 to 100. First `Enter the marks` in the variable at the top 'let marks'. I used a `if...else if...else` condition to write the function. It displays that 100 to 80 'You have A', 79 to 60 'You have B', 59 to 49 'You have C', 49 to 40 'You have D', less than 40 'You have E',The mark input corresponds the correct output grade as shown above.
+The first challenge which is to create a Grade Generator from a range of 0 to 100.This is used by students to get their grades score.
+
+## Usage
+To operate the grade generator 
+ 1. First start the file
+
+ 2.`Enter the marks` in the variable at the top 'let marks'.
+
+ 3.`if...else if...else` condition is used to write the function.
+ Run to viw the grade update, the mark input corresponds the correct output grade.
 
 ## Challenge 2 : Speed Detector
-The speed of a car should be less or equal to 70km/s so it is takes up constant as a variable. `Enter the speed of the car` in the 'let carSpeed' after inputing the speed of a car I used the `arithmetic operator` to get the demerit point which is 1 is equal to 5km/s above the constant speed.When the licence of the car passes more than 12 demerits it is suspended hence use of `if..else` statement to determine whether the car is `Ok` or `Licence Suspended`.
+The speed detector is used to detect the speed of every single car and determines if it is fit to be on the road by the authorities. The prefered speed is less or equal to 70km/s.
+
+## Usage 
+1.Open the file 
+
+2. `Enter the speed of the car` in the 'let carSpeed'
+Every car which exceeds 70 the demerit points are calculated which is 1 is equal to 5km/s .When the licence of the car passes more than 12 demerits it is suspended hence use of `if..else` statement to determine whether the car is `Ok` or `Licence Suspended`.
 
 ## Challenge 3 : Net Salary Calculator
-This is a Net Salary Calculator which calculates an individual net salary after the benefits and deductions. It starts off by defining the variables of the basic salary and the benefits using `let`. In this two variables the Basic Salary and Benefits `Enter the values`.The total of this two give the Gross Salary which is the salary before deductions and it is given by use of `if...else` where the input must be a number, it must be greater than 0 for it to be calculated or else an error is detected hence not calculated.
-`if...else if...else` statement is used to find  the PAYE which is the taxed by the KRA on the anual gross Salary. The same condition is used to get the NHIF Deductions immediately after.
-The NSSF Deduction is equal to 6% of the Gross Salary. Lastly the Individual's Net Salary is equal to the Gross Salary minus the Deductions calculated earlier.
+This is a Net Salary Calculator which calculates an individual net salary after the benefits and deductions annually. 
 
-## Conclusion
-In this Code Challenge I spent time understanding more about the content learnt by puting it into practice. A lot of skills were grasped during this challenge.
+## Usage
+1.Start the file 
+
+2.`Enter the values`.The basic Salary and Benefits.
+Gross Salary is the salary before deductions and it is given by use of `if...else` for it must meet some required conditions.
+
+`if...else if...else` statement is used to find  the PAYE which is the taxed on the anual gross Salary. The same condition is used to get the NHIF Deductions immediately after and the NSSF Deductions are calculated in the program.
+ Lastly view the Individual's Net Salary which is displayed together with the values calculated before in the program.
+
+
+## License
+See the `LICENSE.md` file for details concerning the Programs.
+
+## Author
+Bridget Mburu - bridget.mburu@student.moringaschool.com 
+
+## FAQS
+For common problems faced which may be encountered see `FAQ.md` document.
+
+## Resources 
+- [https://www.aren.co.ke/payroll/taxrates.htm Links to an external site][]
+
+
+
+
 
 
 
