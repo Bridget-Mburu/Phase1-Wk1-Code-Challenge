@@ -7,7 +7,7 @@
 // E - less than 40
 
 
-     let marks = 10
+     let marks = 100
     if(marks <=100 && marks >79 ){
         console.log('You have A')
      } else if(marks <= 79 && marks >= 60) {
