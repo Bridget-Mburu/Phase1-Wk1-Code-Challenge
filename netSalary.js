@@ -1,7 +1,7 @@
 //Net Salary Calculator
 
 //Defining variables
- let basicSalary = 2000000
+ let basicSalary = 12000000
 let benefits = 300000
 
 //Gross Salary = Basic Salary + Benefits
