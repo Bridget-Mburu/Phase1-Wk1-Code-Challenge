@@ -2,7 +2,7 @@
 
 //Defining variables
  let basicSalary = 12000000
-let benefits = 300000
+let benefits = 400000
 
 //Gross Salary = Basic Salary + Benefits
 if(isNaN(basicSalary) || isNaN(benefits)){
