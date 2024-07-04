@@ -6,6 +6,7 @@
 // D - 40 to 49
 // E - less than 40
 
+//use of prompt
 let prompt = require('prompt-sync')()
 
      let marks= Number(prompt("Enter marks"))
