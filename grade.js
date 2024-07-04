@@ -6,8 +6,9 @@
 // D - 40 to 49
 // E - less than 40
 
+let prompt = require('prompt-sync')()
 
-     let marks = 99
+     let marks= Number(prompt("Enter marks"))
     if(marks <=100 && marks >79 ){
         console.log('You have A')
      } else if(marks <= 79 && marks >= 60) {
@@ -21,5 +22,5 @@
      } else {
         console.log ('Not in range')
      }
-
+   
     
