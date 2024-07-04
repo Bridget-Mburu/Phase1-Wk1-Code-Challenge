@@ -31,10 +31,10 @@ The first challenge which is to create a Grade Generator from a range of 0 to 10
 To operate the grade generator 
  1. First start the file
 
- 2.`Enter the marks` in the variable at the top 'let marks'.
-
- 3.`if...else if...else` condition is used to write the function.
+ 2.`if...else if...else` condition is used to write the function.
  Run to viw the grade update, the mark input corresponds the correct output grade.
+
+ 3. Prompt is used hence when running to view the code `Enter marks` pops up where one inputs the marks.
 
 ## Challenge 2 : Speed Detector
 The speed detector is used to detect the speed of every single car and determines if it is fit to be on the road by the authorities. The prefered speed is less or equal to 70km/s.
